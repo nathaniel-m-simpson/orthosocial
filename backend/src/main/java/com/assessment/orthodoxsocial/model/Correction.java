@@ -79,14 +79,13 @@ public class Correction {
 
     @Override
     public String toString() {
-        final StringBuilder sb = new StringBuilder("Correction{");
-        sb.append("id=").append(id);
-        sb.append(", correctiveAction='").append(correctiveAction).append('\'');
-        sb.append(", cfrReferences='").append(cfrReferences).append('\'');
-        sb.append(", errorCorrectedDate='").append(errorCorrectedDate).append('\'');
-        sb.append(", errorOccurredDate='").append(errorOccurredDate).append('\'');
-        sb.append(", title='").append(title).append('\'');
-        sb.append('}');
-        return sb.toString();
+        String sb = "Correction{" + "id=" + id +
+                ", correctiveAction='" + correctiveAction + '\'' +
+                ", cfrReferences='" + cfrReferences + '\'' +
+                ", errorCorrectedDate='" + errorCorrectedDate + '\'' +
+                ", errorOccurredDate='" + errorOccurredDate + '\'' +
+                ", title='" + title + '\'' +
+                '}';
+        return sb;
     }
 }

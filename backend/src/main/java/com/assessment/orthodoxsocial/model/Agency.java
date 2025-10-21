@@ -54,12 +54,11 @@ public class Agency {
 
     @Override
     public String toString() {
-        final StringBuilder sb = new StringBuilder("Agency{");
-        sb.append("id=").append(id);
-        sb.append(", name='").append(name).append('\'');
-        sb.append(", slug='").append(slug).append('\'');
-        sb.append(", cfrReferences=").append(cfrReferences);
-        sb.append('}');
-        return sb.toString();
+        String sb = "Agency{" + "id=" + id +
+                ", name='" + name + '\'' +
+                ", slug='" + slug + '\'' +
+                ", cfrReferences=" + cfrReferences +
+                '}';
+        return sb;
     }
 }

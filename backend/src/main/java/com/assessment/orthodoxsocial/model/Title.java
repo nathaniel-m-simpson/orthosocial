@@ -51,11 +51,10 @@ public class Title {
 
     @Override
     public String toString() {
-        final StringBuilder sb = new StringBuilder("Title{");
-        sb.append("number=").append(number);
-        sb.append(", name='").append(name).append('\'');
-        sb.append(", upToDateAsOf='").append(upToDateAsOf).append('\'');
-        sb.append('}');
-        return sb.toString();
+        String sb = "Title{" + "number=" + number +
+                ", name='" + name + '\'' +
+                ", upToDateAsOf='" + upToDateAsOf + '\'' +
+                '}';
+        return sb;
     }
 }

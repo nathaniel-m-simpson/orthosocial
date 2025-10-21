@@ -39,11 +39,10 @@ public class CfrReference {
 
     @Override
     public String toString() {
-        final StringBuilder sb = new StringBuilder("CfrReference{");
-        sb.append("id=").append(id);
-        sb.append(", title='").append(title).append('\'');
-        sb.append(", chapter='").append(chapter).append('\'');
-        sb.append('}');
-        return sb.toString();
+        String sb = "CfrReference{" + "id=" + id +
+                ", title='" + title + '\'' +
+                ", chapter='" + chapter + '\'' +
+                '}';
+        return sb;
     }
 }
