@@ -1,6 +1,6 @@
-package com.assessment.ecfr_analytics.data;
+package com.assessment.orthodoxsocial.data;
 
-import com.assessment.ecfr_analytics.model.Title;
+import com.assessment.orthodoxsocial.model.Title;
 
 import java.util.List;
 

@@ -1,12 +1,12 @@
-package com.assessment.ecfr_analytics.service;
+package com.assessment.orthodoxsocial.service;
 
-import com.assessment.ecfr_analytics.data.Agencies;
-import com.assessment.ecfr_analytics.data.Corrections;
-import com.assessment.ecfr_analytics.data.Titles;
-import com.assessment.ecfr_analytics.model.Title;
-import com.assessment.ecfr_analytics.repository.AgencyMetaDataRepository;
-import com.assessment.ecfr_analytics.repository.CorrectionsRepository;
-import com.assessment.ecfr_analytics.repository.TitlesMetaDataRepository;
+import com.assessment.orthodoxsocial.data.Agencies;
+import com.assessment.orthodoxsocial.data.Corrections;
+import com.assessment.orthodoxsocial.data.Titles;
+import com.assessment.orthodoxsocial.model.Title;
+import com.assessment.orthodoxsocial.repository.AgencyMetaDataRepository;
+import com.assessment.orthodoxsocial.repository.CorrectionsRepository;
+import com.assessment.orthodoxsocial.repository.TitlesMetaDataRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpStatus;

@@ -1,6 +1,6 @@
-package com.assessment.ecfr_analytics.data;
+package com.assessment.orthodoxsocial.data;
 
-import com.assessment.ecfr_analytics.model.Correction;
+import com.assessment.orthodoxsocial.model.Correction;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.util.List;

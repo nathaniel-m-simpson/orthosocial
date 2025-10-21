@@ -1,4 +1,4 @@
-package com.assessment.ecfr_analytics.model;
+package com.assessment.orthodoxsocial.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

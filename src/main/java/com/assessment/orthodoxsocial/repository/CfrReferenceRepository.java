@@ -1,6 +1,6 @@
-package com.assessment.ecfr_analytics.repository;
+package com.assessment.orthodoxsocial.repository;
 
-import com.assessment.ecfr_analytics.model.CfrReference;
+import com.assessment.orthodoxsocial.model.CfrReference;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
