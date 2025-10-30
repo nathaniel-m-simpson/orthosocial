@@ -19,7 +19,7 @@ import java.util.List;
 import java.util.Objects;
 
 @Service
-public class AnalyticsService {
+public class UserAccountService {
 
     private final AgencyMetaDataRepository agencyMetaDataRepository;
 
@@ -45,9 +45,9 @@ public class AnalyticsService {
     private String efcrApiSourceXmlsUrl;
 
     @Autowired
-    public AnalyticsService(AgencyMetaDataRepository agencyMetaDataRepository,
-                            TitlesMetaDataRepository titlesMetaDataRepository, CorrectionsRepository correctionsRepository,
-                            WebClient webClient) {
+    public UserAccountService(AgencyMetaDataRepository agencyMetaDataRepository,
+                              TitlesMetaDataRepository titlesMetaDataRepository, CorrectionsRepository correctionsRepository,
+                              WebClient webClient) {
         this.agencyMetaDataRepository = agencyMetaDataRepository;
         this.titlesMetaDataRepository = titlesMetaDataRepository;
         this.correctionsRepository = correctionsRepository;
@@ -94,22 +94,6 @@ public class AnalyticsService {
                 );
 
         System.out.println("Downloading title xml: " + title);
-//        String filename = title.getUpToDateAsOf() + "-title-" + title.getNumber() + ".xml";
-//
-//        Path fileDownloadPath = Paths.get(System.getProperty("user.dir")).resolveSibling(fileDownloadDir)
-//                .resolve(filename);
-//        try {
-//            Flux<DataBuffer> flux = this.webClient.get().
-//                    uri(uriBuilder -> uriBuilder
-//                            .path(efcrApiSourceXmlsUrl)
-//                            .build(title.getUpToDateAsOf(), title.getNumber()))
-//                    .retrieve()
-//                    .bodyToFlux(DataBuffer.class);
-//
-//            DataBufferUtils.write(flux, fileDownloadPath).subscribe();
-//        } catch (Exception e) {
-//            System.err.println("Error saving XML content: " + e.getMessage());
-//        }
 
         System.out.println("Finished downloading title xml: " + title);
     }

@@ -5,31 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b2f4cdd-d748-42f1-9ce9-db8328548984" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/assessment/orthodoxsocial/OrthodoxSocialApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/assessment/orthodoxsocial/config/AppConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/assessment/orthodoxsocial/controller/AnalyticsController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/assessment/orthodoxsocial/data/Agencies.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/assessment/orthodoxsocial/data/Corrections.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/assessment/orthodoxsocial/data/Titles.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/assessment/orthodoxsocial/model/Agency.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/assessment/orthodoxsocial/model/CfrReference.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/assessment/orthodoxsocial/model/Correction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/assessment/orthodoxsocial/model/Title.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/assessment/orthodoxsocial/repository/AgencyMetaDataRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/assessment/orthodoxsocial/repository/CfrReferenceRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/assessment/orthodoxsocial/repository/CorrectionsRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/assessment/orthodoxsocial/repository/TitlesMetaDataRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/assessment/orthodoxsocial/service/AnalyticsService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/assessment/orthodoxsocial/EcfrAnalyticsApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/backend/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/assessment/orthodoxsocial/controller/AnalyticsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/assessment/orthodoxsocial/controller/UserAccountController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/assessment/orthodoxsocial/service/AnalyticsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/assessment/orthodoxsocial/service/UserAccountService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/orthosocial/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +19,9 @@
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/backend">
       <ProjectState />
     </projectState>
   </component>
@@ -58,6 +42,14 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -69,28 +61,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.OrthodoxSocialApplication.executor": "Run",
-    "Gradle.Build orthodox-social.executor": "Run",
-    "Gradle.ecfr-analytics [:com.assessment.ecfr_analytics.EcfrAnalyticsApplication.main()].executor": "Run",
-    "Gradle.orthodox-social [:com.assessment.ecfr_analytics.EcfrAnalyticsApplication.main()].executor": "Run",
-    "Gradle.orthodox-social [:com.assessment.ecfr_analytics.OrthodoxSocialApplication.main()].executor": "Run",
-    "Gradle.orthodox-social [:com.assessment.orthodoxsocial.OrthodoxSocialApplication.main()].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/dev/orthodox-social",
-    "onboarding.tips.debug.path": "C:/dev/orthodox-social/src/main/java/com/orthosocial/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.OrthodoxSocialApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build orthodox-social.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.backend [:com.assessment.orthodoxsocial.OrthodoxSocialApplication.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.backend.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ecfr-analytics [:com.assessment.ecfr_analytics.EcfrAnalyticsApplication.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.orthodox-social [:com.assessment.ecfr_analytics.EcfrAnalyticsApplication.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.orthodox-social [:com.assessment.ecfr_analytics.OrthodoxSocialApplication.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.orthodox-social [:com.assessment.orthodoxsocial.OrthodoxSocialApplication.main()].executor&quot;: &quot;Run&quot;,
+    &quot;JAR Application.orthodox-social-0.0.1-SNAPSHOT.jar.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/dev/orthodox-social&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/dev/orthodox-social/src/main/java/com/orthosocial/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.OrthodoxSocialApplication (1)">
     <configuration name="EcfrAnalyticsApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.assessment.ecfr_analytics.EcfrAnalyticsApplication" />
@@ -131,6 +126,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="backend" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/backend" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="orthodox-social-0.0.1-SNAPSHOT.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/backend/build/libs/orthodox-social-0.0.1-SNAPSHOT.jar" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="orthdox-social.main" />
       <method v="2">
@@ -144,6 +163,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JAR Application.orthodox-social-0.0.1-SNAPSHOT.jar" />
+        <item itemvalue="Gradle.backend" />
         <item itemvalue="Application.OrthodoxSocialApplication (1)" />
         <item itemvalue="Application.OrthodoxSocialApplication" />
         <item itemvalue="Application.EcfrAnalyticsApplication" />
